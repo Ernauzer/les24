@@ -133,7 +133,7 @@ function getNextPage(url) {
 btnNextCard.addEventListener('click', () => {
     getNewPersone(person);
     index = zero;
-    if (dataNext !== '') {
+    if (dataNext !== null) {
         getNextPage(dataNext);
     }
     else {
